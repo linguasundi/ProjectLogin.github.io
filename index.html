@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> Project Login</title>
+<link rel="stylesheet" type ="text/css" href="style.css">
+    
+    <script  type="text/javascript">
+function sf()
+{
+var x=document.getElementById("Username").value;
+var y=document.getElementById("Password").value;
+    if(x=='dristhi'&& y=='rasoprili')
+
+        {
+           window.open('https://drive.google.com/drive/folders/0B10h4LPezlsQRnhVUWlib2dOWGs?Username&Password&submit=login')
+        
+            
+        }
+    else{
+        
+        alert("Matte tappa est helidru aste");
+    }
+}
+</script>
+
+</head>
+<body>
+ <div class="loginbox">
+<img src="dristhi.png" class="dristhi">
+    
+    <h1> Login </h1>
+<form >
+<p>username</p>
+<input type="text" id="Username" placeholder="Enter your username">
+<p> Password</p>
+<input type="password" id="Password" placeholder="Enter your password">
+<input type="button" onclick="sf()" value="login"/>
+<a href="#"> Forget Password</a>
+</form>
+     </div>
+    </body>
+</html>
